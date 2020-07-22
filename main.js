@@ -8,6 +8,7 @@ function createElement() {
     var ul = document.querySelector("ul");
     li.appendChild(textNode);
     ul.appendChild(li);
+    nameUser.value = "";
 }
 
 function condition() {
